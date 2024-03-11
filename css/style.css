@@ -1,0 +1,13 @@
+.contacts .link:hover, .contacts .link:focus {
+    color: #404bbf
+}
+body {
+    font-family: "Roboto", 'Verdana',
+        sans-serif;
+}
+.page-header .link:focus {
+    color: #404bbf;
+}
+.button  .link:focus {
+background: #404bbf;
+}
