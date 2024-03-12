@@ -43,12 +43,12 @@ text-transform: uppercase;
 }
 .button {
     color: #fff;
-    background-color: #4d5ae5;;
+    background-color: #4d5ae5;
+    cursor: pointer;
 }
+
 .button .link:hover, .button .link:focus {
-background-color: #404bbf;
-cursor: pointer;
-}
+background-color: #404bbf;}
 
 .first-section, .page-footer {
 background-color: #2e2f42;
@@ -58,8 +58,15 @@ background-color: #2e2f42;
     font-size: 36px;
 }
 
-.logof, .text-footer {
+.text-footer {
     color: #f4f4fd;
+}
+
+.logof {
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+color: #f4f4fd;
 }
 
 .logof .web {
