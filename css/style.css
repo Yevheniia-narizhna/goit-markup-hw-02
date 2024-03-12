@@ -5,14 +5,23 @@ body {
     font-size: 16px;
     line-height: 1.5; }
 
-.contacts .link:hover, .contacts .link:focus {
-    color: #404bbf
+.address {
+    font-style: normal;
+}
+.contact {
+letter-spacing: 0.02em;
+color: #434455;
+}
+.contact .link:hover, .contact .link:focus {
+    color: #404bbf;
 }
 
 h1 {
 font-size: 56px;
 line-height: 1.07;
 color: #fff;
+text-align: center;
+letter-spacing: 0.02em;
 }
 .section-title, .name, .logo {
     color: #2e2f42;
@@ -22,6 +31,7 @@ color: #fff;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -38,39 +48,60 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 
-.page-nav {
+.nav {
     font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
 }
 
-.page-nav .link:focus {
+.nav .link:focus, .nav .link:hover {
     color: #404bbf;
 }
 .button {
     color: #fff;
-    background-color: #4d5ae5;}
+    background-color: #4d5ae5;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
 
 .button .link:hover, .button .link:focus {
-background-color: #404bbf;}
+background-color: #404BBF;}
 
 .first-section, .page-footer {
 background-color: #2e2f42;
 }
 
-.section-title {
-    font-size: 36px;
+.section-text {
+letter-spacing: 0.02em;
 }
 
-.text-footer {
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.text-footer, .third-section {
     color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
 
 .logof {
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 text-transform: uppercase;
-color: #f4f4fd;
+color: #4d5ae5;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
 }
 
 .logof .webf {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
