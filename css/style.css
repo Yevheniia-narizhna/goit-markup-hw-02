@@ -1,7 +1,7 @@
 body {
     color: #434455;
-    font-family: "Roboto", 'Verdana', sans-serif;
-    background-color: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5; }
 
@@ -27,11 +27,15 @@ color: #fff;
 .logo {
 font-family: "Raleway", sans-serif;
 font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
+color: #4d5ae5;
 }
 
 .logo .web {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .page-nav {
