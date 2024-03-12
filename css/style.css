@@ -12,8 +12,12 @@ body {
 letter-spacing: 0.02em;
 color: #434455;
 }
-.contact .link:hover, .contact .link:focus {
+.contact .link:active {
     color: #404bbf;
+}
+.contact .link:hover,
+.contact .link:focus {
+color: #404bbf;
 }
 
 h1 {
@@ -54,7 +58,9 @@ color: #4d5ae5;
     color: #2e2f42;
 
 }
-
+.nav .link:active {
+    #404bbf;
+}
 .nav .link:focus, .nav .link:hover {
     color: #404bbf;
 }
@@ -63,13 +69,18 @@ color: #4d5ae5;
     background-color: #4d5ae5;
     font-weight: 500;
 font-size: 16px;
+font-family: "Roboto", sans-serif;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
 
+.button .link:active {
+    background-color: #404BBF;
+}
 .button .link:hover, .button .link:focus {
-background-color: #404BBF;}
+background-color: #404BBF;
+}
 
 .first-section, .page-footer {
 background-color: #2e2f42;
@@ -77,6 +88,7 @@ background-color: #2e2f42;
 
 .section-text {
 letter-spacing: 0.02em;
+color: #434455;
 }
 
 .section-title {
@@ -87,11 +99,16 @@ letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.text-footer, .third-section {
+.text-footer {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
-
+.third-section {
+background-color: #F4F4FD;
+}
+.frame {
+background-color: #FFFFFF
+}
 .logof {
 font-family: "Raleway", sans-serif;
 font-size: 18px;
