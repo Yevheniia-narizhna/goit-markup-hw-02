@@ -12,10 +12,10 @@ body {
 letter-spacing: 0.02em;
 color: #434455;
 }
-.page-contacts.contact:active {
+.page-contacts .contact:active {
     color: #404bbf;
 }
-.page-contacts.contact:hover, .page-contacts.contact:focus {
+.page-contacts .contact:hover, .page-contacts .contact:focus {
     color: #404bbf;
 }
 
