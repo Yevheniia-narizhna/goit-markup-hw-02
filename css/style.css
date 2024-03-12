@@ -45,7 +45,7 @@ text-transform: uppercase;
     color: #fff;
     background-color: #4d5ae5;;
 }
-.button .link:hover .link:focus {
+.button .link:hover, .button .link:focus {
 background-color: #404bbf;
 cursor: pointer;
 }
@@ -58,10 +58,10 @@ background-color: #2e2f42;
     font-size: 36px;
 }
 
-.page-footer {
+.logof, .text-footer {
     color: #f4f4fd;
 }
 
-.page-footer .web {
+.logof .web {
     color: #4d5ae5;
 }
