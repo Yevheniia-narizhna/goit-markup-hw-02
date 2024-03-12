@@ -43,9 +43,7 @@ text-transform: uppercase;
 }
 .button {
     color: #fff;
-    background-color: #4d5ae5;
-    cursor: pointer;
-}
+    background-color: #4d5ae5;}
 
 .button .link:hover, .button .link:focus {
 background-color: #404bbf;}
@@ -69,6 +67,6 @@ text-transform: uppercase;
 color: #f4f4fd;
 }
 
-.logof .web {
+.logof .webf {
     color: #4d5ae5;
 }
