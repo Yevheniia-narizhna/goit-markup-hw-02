@@ -27,6 +27,7 @@ color: #fff;
 .logo {
 font-family: "Raleway", sans-serif;
 font-size: 18px;
+text-transform: uppercase;
 }
 
 .logo .web {
@@ -44,7 +45,7 @@ font-size: 18px;
     color: #fff;
     background-color: #4d5ae5;;
 }
-.button  .link:focus {
+.button .link:hover .link:focus {
 background-color: #404bbf;
 cursor: pointer;
 }
@@ -55,4 +56,12 @@ background-color: #2e2f42;
 
 .section-title {
     font-size: 36px;
+}
+
+.page-footer {
+    color: #f4f4fd;
+}
+
+.page-footer .web {
+    color: #4d5ae5;
 }
