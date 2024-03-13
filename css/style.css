@@ -123,3 +123,11 @@ letter-spacing: 0.03em;
 .logof .webf {
     color: #f4f4fd;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
